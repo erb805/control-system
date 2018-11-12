@@ -19,7 +19,7 @@
 #define SLAVE_ADDRESS 0x04
 
 //sets the counter Sensor pin
-const int counterSensorPin = 2; // pin for laser sensor interrupt
+const int counterSensorPin = 2; 
 
 //String array denoting requestType, could add laserCount, etc...
 const String requestType[] = {"HALL_COUNT"};
